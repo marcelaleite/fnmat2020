@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>VII Feira Nacional de Matemática</title>
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="manifest" href="manifest.webmanifest">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/nav.css" type="text/css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto+Condensed|Titillium+Web&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<span id='inicio'></span>
+      <div class="navbar-fixed">
+        <nav>
+           <div class="nav-wrapper" id="antes">
+               <!-- logos -->
+                <a id="logo-container logoNav1" href="#" class="brand-logo"><img src="img/logo.jpeg" style="height:62px;" alt=""></a>
+                <a id="logo-container logoNav2" href="#" class="brand-logo right"><img src="img/Logofeira2.png" style="height:62px;" alt=""></a>
+                <!-- itens -->
+             <ul  class="center hide-on-med-and-down">
+               <li class="MenuSelect waves-effect waves-yellow"><a href="#inicio" >Home</a></li>
+               <li class="MenuSelect waves-effect waves-red"><a href="#participante">Área do Participante</a></li>
+               <li class="MenuSelect waves-effect waves-purple"><a href="#prog">Programação da Feira</a></li>
+               <li class="MenuSelect waves-effect waves-green"><a href="#galeria" >Galeria</a></li>
+               <li class="MenuSelect waves-effect waves-purple"><a href="#org" >Organização e Apoio</a></li>
+                <li class="MenuSelect waves-effect waves-red"><a href="#contato" >Contato</a></li>
+
+                <!-- <li class="" ><a target="_blank" href="https://eventos.fabricadesoftware.ifc.edu.br/evento/38/visualizar/" >Inscreva-se</a></li> -->
+               <li class="" ><a>Inscreva-se</a></li>
+             </ul>
+             <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons black-text">menu</i></a>
+          </div>
+          <ul id="nav-mobile" class="sidenav">
+
+             <li class="MenuSelect "><a href="#home" >Home</a></li>
+             <li class="MenuSelect "><a href="#participante">Área do Participante</a></li>
+             <li class="MenuSelect "><a href="#prog">Programação da Feira</a></li>
+             <li class="MenuSelect "><a href="#galeria" >Galeria</a></li>
+             <li class="MenuSelect "><a href="#org" >Organização e Apoio</a></li>
+             <li class="MenuSelect "><a href="#contato" >Contato</a></li>
+             <li class="MenuSelect "><a href="https://eventos.fabricadesoftware.ifc.edu.br/evento/38/visualizar/" >Inscreva-se</a></li>
+          </ul>
+        </nav>
+        <!-- FIM DO NAV -->
+  </div>
+  <div class="container">
+
+  <!-- <div id="index-banner mobile" class="parallax-container">
+    <div class="section scrollspy " id="home"> -->
+      <div class="row">
+        <div class="col s12 l6 m6">
+          <img class="responsive-img logo-banner" width="100%" src="img/LogoFN1.png"  alt="Logo da VII Feira Nacional de Matemática">
+        </div>
+        <div class="col s12 l6 m6">
+          <div class="row titulo">
+            <div class="titulo col s12 ">
+            CAMPOS NOVOS
+            </div>
+          </div>
+          <div class="local row">
+            <div class="col s12 ">
+              Praça Lauro Müller, Centro
+            </div>
+          </div>
+          <div class=" data row">
+            <div class="col s12">
+              27 a 29 de maio de 2020
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row organizacao">
+        <div class="col s12 m6 l6">
+          <div class="row patap">
+              <div class="col s12 l12 m12">
+                <span class="light">Organização:</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col s12 l12 m12">
+                <div class="row">
+                  <div class="col S12 l7 m7">
+                    <div class="row">
+                      <div class="col s12 l12 m12">
+                        <div class="col s12 l3 m3"><img src="img/Logofeira2.png" alt="Feiras de matemática"></div>
+                        <div class="col S12 l3 m3"><img src="img/CamposNovos2.png" alt="PM Campos Novos"></div>
+                        <div class="col S12 l3 m3"><img src="img/IFC.png" alt="IFC"></div>
+                        <div class="col S12 l3 m3"><img src="img/SC.png" alt="Governo de Santa Catarina"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col S12 l4 m4">
+                    <div class="row">
+                      <div class="col S12 l4 m4"><img src="img/FURB.png" alt="FURB"></div>
+                      <div class="col s12 l4 m4"><img src="img/IFSC.png" alt="IFSC"></div>
+                      <div class="col s12 l4 m4"><img src="img/UFSC.png" alt="UFSC Blumenau"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+        <div class="col s12 m6 l6">
+            <div class="row patap">
+              <div class="col S12 l2 m2"></div>
+
+              <div class="col s12 l10 m10">
+                <span class="light">Apoio:</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 l12 m12">
+                <div class="row " >
+                  <div class="col S12 l2 m2"></div>
+                  <div class="col S12 l3 m3"><img src="img/cnpq2.png" alt="CNPq"></div>
+                  <div class="col S12 l2 m2"><img src="img/UNEB2.png" alt="UNEB"></div>
+                  <div class="col S12 l2 m2"><img src="img/sbem3.png"  alt="SBEM"></div>
+                  <div class="col S12 l3 m3"></div>
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+  <div class="section  scrollspy" id="participante" >
+    <div class="container">
+      <div class="section" >
+  <h3 class="center  text-lighten-2" style="color:black">Área do Participante</h3>
+  <h5 class="header col s12 light" style="color: black">A VII Feira Nacional de Matemática será constituída por 200 trabalhos oriundos de Estados da nação brasileira.</h5>
+<p class='alerta'>Estamos fazendo ajustes no sistema de inscrição, em breve estará disponível.</p>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4 item1" style="color: #D13390">
+          <div class="icon-block "><a class=" modal-trigger"  href="#location">
+            <h2 class="center black-text"><i class="material-icons localizacao" >location_on</i></h2>
+            <h5 class="center localizacao">Localização</h5></a>
+
+              <div id="location" class="modal">
+                <div class="modal-content">
+                  <h5>A feira vai acontecer na praça Lauro Müller, centro, da cidade de Campos Novos/SC, (em frente a Fundação Cultural) de acordo com a programação.</h5>
+                </div>
+                <center><iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1159.521253150947!2d-51.22595502370614!3d-27.401093324764396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e17b2b8afe4109%3A0x33e7ead66119396f!2sPra%C3%A7a%20Lauro%20M%C3%BCller%20-%20Centro%2C%20Campos%20Novos%20-%20SC%2C%2089620-000!5e0!3m2!1spt-BR!2sbr!4v1582937855932!5m2!1spt-BR!2sbr" width="400" height="200" frameborder="0" style="border:1px solid #D13390; border-radius:4px;" allowfullscreen=""></iframe></center>
+
+                <div class="modal-footer">
+                <h4 class="btn-flat pink" style="border-radius:8px;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right white-text">Fechar</a></h4>
+                </div>
+              </div>
+
+
+        <!--      <p class="light"></p> -->
+            </div>
+          </div>
+
+          <div class="col s12 m4 item">
+            <div class="icon-block "><a class=" modal-trigger " style="color: #0EABCE" href="#resumo">
+              <h2 class="center black-text "><i class="material-icons resumo" style="">library_books</i></h2>
+              <h5 class="center resumo">Modelo de Resumo</h5></a>
+
+              <div id="resumo" class="modal">
+                <div style="color: #0EABCE" class="modal-content">
+                  <h5>Clique para Baixar</h5>
+                  <h6><a href="pdf/Template 2020 - COM ORIENTAÇÕES.doc">Template 2020 - COM ORIENTAÇÕES</h6>
+                    <h6><a href="pdf/Template 2020 - SEM ORIENTAÇÕES.doc">Template 2020 - SEM ORIENTAÇÕES</h6>
+                      <h6><a href="pdf/Ficha de Avaliação - Relato de Experiência - 2020.doc">Ficha de Avaliação - Relato de Experiência - 2020</h6>
+                </div>
+                <div class="modal-footer">
+                <h4 class="btn-flat " style="border-radius:8px; background: #0EABCE;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right white-text">Fechar</a></h4>
+                </div>
+              </div>
+    <!--      <p class="light"></p> -->
+  </div>
+          </div>
+
+          <div class="col s12 m4 item3" style="color:#0F58A4">
+                 <div class="icon-block"><a target='_blank' href="https://turismo.camposnovos.sc.gov.br/onde-ficar/index/codCategoria/110#lista-resultados">
+                   <h2 class="center black-text banner"><i class="material-icons banner" >filter_none</i></h2>
+                   <h5 class="center banner">Hotéis</h5></a>
+
+                     <!--      <p class="light"></p> -->
+                   </div>
+                 </div>
+
+                 <div class="col s12 m4 item6" style="color: #CB1E22">
+                   <div class="icon-block cro"><a class=" modal-trigger cro"  href="#cronograma">
+                     <h2 class="center black-text"><i class="material-icons cro">date_range</i></h2>
+                     <h5 class="center cro">Cronograma para Realização dos Trabalhos</h5></a>
+
+                     <div id="cronograma" class="modal">
+                       <div style="color: #CB1E22" class="modal-content">
+                         <table class="highlight">
+                           <tr>
+                             <th>Atividade</th>
+                             <th>Período</th>
+                           </tr>
+                           <tr>
+                             <td>Avaliação <i>ad hoc<i></td>
+                             <td>Até 31/05/2020</td>
+                           </tr>
+                           <tr>
+                             <td>Envio para os orientadores </td>
+                             <td>Até 14/06/2020</td>
+                           </tr>
+                           <tr>
+                             <td>Prazo para o orientador encaminhar a versão Final</td>
+                             <td>Até 16/08/2020</td>
+                           </tr>
+                           <tr>
+                             <td>Publicação do edital de homologação dos relatos que serão publicados</td>
+                             <td>Até 30/08/2020</td>
+                           </tr>
+                           <tr>
+                             <td>Publicação final do edital de homologação dos relatos que serão publicados</td>
+                             <td>Até 13/09/2020</td>
+                           </tr>
+                           <tr>
+                             <td>Publicação dos Anais</td>
+                             <td>Até dezembro de 2020</td>
+                           </tr>
+                         </table>
+                       </div>
+                       <div class="modal-footer">
+                       <h4 class="btn-flat " style="border-radius:8px; background: #CB1E22;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right white-text">Fechar</a></h4>
+                       </div>
+                     </div>
+           <!--      <p class="light"></p> -->
+         </div>
+                 </div>
+
+                 <div class="col s12 m4 item4" style="color: #9DBD4E">
+                   <div class="icon-block regimento"><a target="_blank" href="pdf/Regimento_VII Feira Nacional de Matemática - 2020.pdf" >
+                     <h2 class="center black-text"><i class="material-icons regimento">book</i></h2>
+                     <h5 class="center regimento">Regimento</h5></a>
+                   </div>
+                 </div>
+
+            <div class="col s12 m4 item5" style="color: #FBCA47">
+               <div class="icon-block comissao"><a class=" modal-trigger"  href="#comissao">
+                   <h2 class="center black-text"><i class="material-icons comissao">group</i></h2>
+                   <h5 class="center comissao">Comissão</h5></a>
+
+              <div id="comissao" class="modal">
+                <div class="modal-content">
+                  <ul class="collapsible popout">
+
+                  <li>
+                  <div class="collapsible-header" style="color: black">Prefeitura Municipal de Campos Novos</div>
+                  <div class="collapsible-body"><span>
+                    <table class="highlight">
+
+                      <tr><td>Evanilda Corrêa</td></tr>
+                      <tr><td>Zeide Delavy Gris</td></tr>
+                      <tr><td>Ademar Moreira</td></tr>
+                      <tr><td>Vinícius de Moraes Serena</td></tr>
+
+                    </table>
+                    </span>
+                    </div>
+                    </li>
+
+                    <li>
+                    <div class="collapsible-header" style="color: black">Instituto Federal Catarinense</div>
+                    <div class="collapsible-body"><span>
+                      <table class="highlight">
+
+                          <tr><td>Fátima Peres Zago de Oliveira</td></tr>
+                          <tr><td>Morgana Scheller</td></tr>
+                          <tr><td>Ruy Piehowiak</td></tr>
+                          <tr><td>Marília Zabel</td></tr>
+                          <tr><td>Diogo da Silva</td></tr>
+
+                    </table>
+                  </span>
+                  </div>
+                  </li>
+
+                  <li>
+                  <div class="collapsible-header" style="color: black">Universidade Regional de Blumenau</div>
+                  <div class="collapsible-body"><span>
+                    <table class="highlight">
+                      <tr>
+                          <td>Viviane Clotilde da Silva</td>
+                      </tr>
+                    </table>
+                  </span>
+                  </div>
+                  </li>
+
+                  <li>
+                  <div class="collapsible-header" style="color: black">Instituto Federal de Santa Catarina</div>
+                  <div class="collapsible-body"><span>
+                    <table class="highlight">
+                          <tr><td>Bazilicio Manoel de Andrade Filho</td></tr>
+                          <tr><td>Gustavo Camargo Berti</td></tr>
+                      </tr>
+                    </table>
+                  </span>
+                  </div>
+                  </li>
+
+                <li>
+                  <div class="collapsible-header" style="color: black">Universidade Federal de Santa Catarina</div>
+                  <div class="collapsible-body"><span>
+                    <table class="highlight">
+                      <tr>
+                          <td>André Vanderlinde da Silva</td>
+                      </tr>
+                    </table>
+                  </span>
+                </div>
+                </li>
+
+              </ul>
+              <h4 class="btn-flat right" style="border-radius:8px; background: #FBCA47;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right black-text">Fechar</a></h4>
+
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="modal-content section lighten-5 section scrollspy"  id="prog">
+      <center><h3 style="color:black" >Programação da Feira</h3><center>
+      <ul class="collapsible popout">
+
+        <li>
+          <div class="collapsible-header" style="color: black"><i class="material-icons">event</i>27/05/2020  (Quarta-feira)</div>
+          <div class="collapsible-body"><span>
+            <table class="highlight">
+              <tr>
+                  <th>Horário</th>
+                  <th>Atividade</th>
+              </tr>
+              <tr>
+                <td>12h às 17h</td>
+                <td>Montagem dos trabalhos</td>
+              </tr>
+              <tr>
+                <td>17h às 18h </td>
+                <td>Jantar</td>
+              </tr>
+              <tr>
+                <td> 18h às 19h </td>
+                <td>Cerimônia de abertura/Lançamento de Livros</td>
+              </tr>
+              <tr>
+                <td> 19h às 21h</td>
+                <td>Exposição e visitação pública <hr> A exposição realizada no período das 19h às 21h do dia 27 de maio é optativa para as categorias Educação Infantil, Ensino Fundamental - Anos Iniciais e Anos finais - e Educação Especial. Sendo obrigatória para as demais.</td>
+              </tr>
+              <tr>
+                <td> 21h às 22h </td>
+                <td>Lanche</td>
+              </tr>
+              <tr>
+                <td> 19h às 21h</td>
+                <td>Reunião com representantes dos Estados</td>
+              </tr>
+            </table>
+          </span></div>
+        </li>
+
+        <li>
+          <div class="collapsible-header" style="color: black"><i class="material-icons">event</i>28/05/2020 (Quinta-feira)</div>
+          <div class="collapsible-body"><span>
+            <table class="highlight">
+              <tr>
+                  <th>Horário</th>
+                  <th>Atividade</th>
+              </tr>
+              <tr>
+                <td>8h às 8h30min</td>
+                <td>Reunião com coordenadores de grupos de avaliação</td>
+              </tr>
+              <tr>
+                <td>8h30m às 9h30m</td>
+                <td>Reunião com avaliadores e coordenadores de grupos de avaliação</td>
+              </tr>
+              <tr>
+                <td>8h30m às 11h30m</td>
+                <td>Exposição, visitação pública e avaliação dos trabalhos <hr> A avaliação iniciará às 9h30min, após a reunião com avaliadores e coordenadores de grupo de avaliação.</td>
+              </tr>
+              <tr>
+                <td>9h30m às 10h</td>
+                <td>Lanche</td>
+              </tr>
+              <tr>
+                <td>11h30m às 13h30m</td>
+                <td>Almoço<hr>11h – Educação Infantil e Educação Especial<hr>11h30min – Anos Iniciais<hr>12h – Anos Finais<hr>12h30min – Ensino Médio, Ensino Superior, Professor e Comunidade</td>
+              </tr>
+              <tr>
+                <td>12h30m -13h30m</td>
+                <td>Horário do soninho <hr>(Ed. Infantil, Educação Especial e 1º Ano do Ensino Fundamental)</td>
+              </tr>
+              <tr>
+                <td>13h30m às 17h30m</td>
+                <td>Exposição, visitação pública e avaliação dos trabalhos.</td>
+              </tr>
+              <tr>
+                <td>16h às 16h30m</td>
+                <td>Lanche</td>
+              </tr>
+              <tr>
+                <td>17h30 às 18h30m</td>
+                <td>Atividade Cultural</td>
+              </tr>
+            </table>
+          </span></div>
+        </li>
+
+        <li>
+          <div class="collapsible-header" style="color: black"><i class="material-icons">event</i>29/05/2020 (Sexta-feira)</div>
+          <div class="collapsible-body"><span>
+            <table class="highlight">
+              <tr>
+                  <th>Horário</th>
+                  <th>Atividade</th>
+              </tr>
+              <tr>
+                <td>8h30min às 11h30min</td>
+                <td>Exposição, visitação pública e avaliação dos trabalhos <hr> A avaliação deve estar finalizada até às 9h30min para que a sistematização das avaliações se encerre até às 11h.</td>
+              </tr>
+              <tr>
+                <td>9h30min às 10h</td>
+                <td>Lanche</td>
+              </tr>
+              <tr>
+                <td>10h às 11h</td>
+                <td>Assembleia geral</td>
+              </tr>
+              <tr>
+                <td>11h30min às 13h30min</td>
+                <td>Almoço e desmontagem dos trabalhos</td>
+              </tr>
+              <tr>
+                <td>13h30min às 14h</td>
+                <td>Cerimônia de encerramento</td>
+              </tr>
+              <tr>
+                <td>14h – 15h30min</td>
+                <td>Premiação</td>
+              </tr>
+              <tr>
+                <td>15h30min às 16h</td>
+                <td>Lanche</td>
+              </tr>
+            </table>
+          </span></div>
+        </li>
+
+      </ul>
+
+    </div>
+    <!-- <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Baixar Programação</a>
+    </div> -->
+    </div>
+  </div>
+
+    <div class="section  lighten-5 section scrollspy" id="galeria">
+    <div class="row container">
+      <h3 class="header center darken-3-text text- lighten-5 navbar1"> Galeria</h3>
+      <section class="section-slide card-panel hoverable">
+          <div class="slider">
+              <ul class="slides">
+                  <li>
+                  <img src="img/img1.png" class="responsive-img">
+    <div class="caption center-align top-setting box escuro">
+                <h3 class="white-text"> I Feira Nacional de Matemática</h3>
+                <div class="divider-cap divider"></div>
+                <h5 class="light white-text text-lighten-3">Blumenau, 2010.</h5>
+    </div>
+        </li>
+
+        <li>
+            <img src="img/img2.png" class="responsive-img">
+            <div class="caption left-align box escuro">
+              <h3 class="white-text center-align"> II Feira Nacional de Matemática</h3>
+              <h5 class="light white-text center-align text-lighten-3">Brusque, 2013.</h5>
+            </div>
+        </li>
+    </ul>
+    </div>
+    </div>
+    </section>
+    </div>
+
+
+    <div id="org" class="section scrollspy" >
+      <div class="container">
+    <p><h5 class="light" style="color: black">Organização:</h5></p>
+    <p><img src="img/Logofeira2.png" style="width: 10%" alt="Feiras de matemática">
+       <img src="img/CamposNovos2.png" style="width: 10%" alt="PM Campos Novos">
+       <img src="img/IFC.png" style="width: 11%;" alt="IFC">
+       <img src="img/SC.png" style="width: 11%; " alt="Governo de Santa Catarina">
+       <img src="img/FURB.png" style="width: 11%;" alt="FURB">
+       <img src="img/IFSC.png" style="width: 11%;" alt="IFSC">
+       <img src="img/UFSC.png" style="width: 11%;" alt="UFSC Blumenau">
+    </p>
+  <br><br>
+    <p><h5 class="light" style="color: black;">Apoio:</h5></p>
+    <p><img src="img/cnpq2.png" style="width: 15%" alt="CNPq">
+       <img src="img/UNEB2.png" style="width: 10%" alt="UNEB">
+       <img src="img/sbem3.png" style="width: 10% " alt="SBEM">
+    </p>
+  </div>
+  </div>
+  <br>
+
+    <div class=" section  scrollspy" id="contato">
+    <footer class="page-footer" style="background: #ffe57f " >
+      <div class="container" >
+        <div class="row">
+          <div class="col l6 s12">
+              <h5 class="black-text">Email para contato:</h5>
+         <p class="black-text text-lighten-4">feiranacionaldematematica@gmail.com</p>
+  </div>
+          </div>
+          <div class="col l3 s12">
+            <!--   <h5 class="black-text">Quem somos?</h5>
+            <ul>
+           <li><a class="black-text" href="#!">Julia</a></li>
+              <li><a class="black-text" href="#!">Murilo</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+      <!--  Scripts-->
+
+      <script src="js/init.js"></script>
+      <script src="js/nav.js"></script>
+      <script src="js/margem.js"></script>
+      <script src="js/rolagem.js"></script>
+      <script src="js/slide.js"></script>
+      <script src="js/modal.js"></script>
+      <script src="js/dobravel.js"></script>
+    </div>
+  </body>
+</html>

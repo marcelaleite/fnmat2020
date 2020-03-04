@@ -1,0 +1,240 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.itemSelectNav{
+  border-bottom: 2.5px solid #b3e5fc;
+}
+
+.section-slide .slider .slides{
+    background-color: transparent;
+    margin: 0;
+    height: 800px;
+}
+.section-slide .slider .slides li img{
+    height: 100% !important;
+    width: 100% !important;
+    background-position: top;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+}
+.resumo{
+    display: block;
+    color: #0EABCE;
+
+}
+.item:hover .resumo{
+    display: block;
+    color: #FFD700;
+
+}
+.localizacao{
+    display: block;
+    color: #D13390;
+
+}
+.item1:hover .localizacao{
+    display: block;
+    color: #9400D3;
+
+}
+.banner{
+    display: block;
+    color:#0F58A4;
+
+}
+.item3:hover .banner{
+    display: block;
+  	color:#FF00FF;
+
+}
+.regimento{
+    display: block;
+    color: #9DBD4E;
+
+}
+.item4:hover .regimento{
+    display: block;
+    color:#32CD32;
+
+}
+.comissao{
+    display: block;
+    color: #FBCA47;
+
+}
+.item5:hover .comissao{
+    display: block;
+    color: 	#FF4500;
+
+}
+.cro{
+    display: block;
+    color: #CB1E22;
+
+}
+.item6:hover .cro{
+    display: block;
+    color:	#0000CD;
+
+}
+.escuro{
+  background-color: rgba(1, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*
+.row .col{
+  border:1px solid black;
+} */
+
+.titulo{
+  font-size: 4vw;
+
+  color: rgb(53, 79, 158);
+  font-weight: bold;
+  padding-top: 20%;
+  padding-left: 5%;
+  text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.local{
+  text-align: center;
+  padding-left: 5%;
+  font-size:2vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: -25px;
+}
+
+.data{
+  text-align: center;
+  padding-left: 5%;
+  font-weight: bold;
+  font-size: 2.5vw;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo-banner{
+  padding-top:3%;
+  padding-left: 6%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bar{
+  position: fixed;
+}
+
+.patap{
+  padding-top: 5%;
+}
+
+.organizacao img{
+  width: 100%;
+}
+
+.apoio img{
+  width: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 993px) {
+  /* For mobile phones: */
+  [id*="logoNav1"] {
+    margin-left: -7%;
+  }
+  [id*="logoNav2"] {
+    margin-right: 26%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* For mobile phones: */
+  [id*="logoNav1"] {
+  margin-left: 0.5%;
+  }
+  [id*="logoNav2"] {
+  margin-right: 0.5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .organizacao{
+    display: none;
+  }
+}
+
+.alerta{
+  color: red;
+  font-size: 1vw;
+  text-align: center;
+}
+
+#chart2{
+  width: 960px;
+  height: 180px;
+  border: solid 1px #ccc;
+}
+
+#chart2 path {
+  fill: none;
+  stroke: #333;
+}
+
+body{
+  background: linear-gradient(to bottom, #E0FFFF, white, #E0FFFF);
+}

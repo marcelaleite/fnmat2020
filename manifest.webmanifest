@@ -1,0 +1,22 @@
+{
+  "short_name": "FNMAT",
+  "name": "FNMAT = VII Feira Nacional de Matemática",
+  "description": "Site com informações sobre a feira nacional de Matemática de 2020",
+  "icons": [
+    {
+      "src": "/img/logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/LogoFN1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "browser",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
