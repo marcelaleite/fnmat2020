@@ -71,24 +71,24 @@ footer.page-footer {
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
 }
-.resumo{
-    display: block;
-    color: #0EABCE;
-
-}
-.item:hover .resumo{
+.tutorial{
     display: block;
     color: #FFD700;
+    
+
+}
+.item7:hover .tutorial{
+    display: block;
+    color: #FFD700BF;
 
 }
 .localizacao{
     display: block;
-    color: #D13390;
-
+    color: #9400D3;
 }
 .item1:hover .localizacao{
     display: block;
-    color: #9400D3;
+    color: #9400D3D1;
 
 }
 .banner{
@@ -98,27 +98,38 @@ footer.page-footer {
 }
 .item3:hover .banner{
     display: block;
-  	color:#FF00FF;
+  	color:#0F58A4BF;
 
 }
 .regimento{
     display: block;
-    color: #9DBD4E;
+    color: #0EABCE;
 
 }
-.item4:hover .regimento{
+
+.item5:hover .regimento{
     display: block;
-    color:#32CD32;
+    color:#0EABCEB3;
+
+}
+.resumo{
+  display: block;
+  color: #35AA3D;
+
+}
+.item:hover .resumo{
+  display: block;
+  color:#35AA3DD4;
 
 }
 .comissao{
     display: block;
-    color: #FBCA47;
+    color:#FF00FF;
 
 }
-.item5:hover .comissao{
+.item6:hover .comissao{
     display: block;
-    color: 	#FF4500;
+    color: 	#FF00FFB3;
 
 }
 .cro{
@@ -126,9 +137,9 @@ footer.page-footer {
     color: #CB1E22;
 
 }
-.item6:hover .cro{
+.item4:hover .cro{
     display: block;
-    color:	#0000CD;
+    color:	#CB1E22CF;
 
 }
 .escuro{
