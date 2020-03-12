@@ -240,8 +240,9 @@ body{
 
 
 .texto{
-  font-size: 1vw;
+  font-size: 1.2em;
   font-family: 'Roboto Condensed', sans-serif;
+  text-align: justify;
 }
 
 .destaque{
