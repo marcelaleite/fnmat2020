@@ -9,7 +9,7 @@ top: 80px
 
 #antes {
 transition: all 0.5s ease-in-out;
-background-color: white;
+
 }
 
 #depois {
@@ -21,6 +21,11 @@ transition: all 0.5s ease-in-out;
 background-color: #fafafa;
 opacity: 0.9;
 }
+
+.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
+
 @media screen and (min-width: 769px){
 
    .nav-wrapper ul.center {
