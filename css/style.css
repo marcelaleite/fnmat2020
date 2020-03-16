@@ -74,7 +74,7 @@ footer.page-footer {
 .tutorial{
     display: block;
     color: #FFD700;
-    
+
 
 }
 .item7:hover .tutorial{
@@ -223,7 +223,7 @@ font-family: 'Roboto Condensed', sans-serif;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 993px) {
   .organizacao{
     display: none;
   }
