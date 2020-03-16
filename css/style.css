@@ -91,12 +91,12 @@ footer.page-footer {
     color: #9400D3D1;
 
 }
-.banner{
+.hoteis{
     display: block;
     color:#0F58A4;
 
 }
-.item3:hover .banner{
+.item3:hover .hoteis{
     display: block;
   	color:#0F58A4BF;
 
