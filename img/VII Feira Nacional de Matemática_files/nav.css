@@ -1,0 +1,41 @@
+body {
+height: 1000px
+}
+
+main {
+position: relative;
+top: 80px
+}
+
+/* #antes {
+transition: all 0.5s ease-in-out;
+
+} */
+
+#depois {
+/* height: 64px;
+width: 100%;
+z-index: 10;
+position: fixed; */
+/* transition: all 0.5s ease-in-out; */
+background-color: #fafafa;
+opacity: 0.9;
+}
+
+.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
+
+@media screen and (min-width: 769px){
+
+   .nav-wrapper ul.center {
+     display: block;
+     width: auto;
+   }
+
+   .nav-wrapper > ul.center li {
+     float: none;
+     display: inline-block;
+   }
+
+}
