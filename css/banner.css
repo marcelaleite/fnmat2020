@@ -1,7 +1,17 @@
 .banner{
   background-image: url(../img/CN4.png);
+  background-image: url(../img/CN3.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+.filter {
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);  */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }

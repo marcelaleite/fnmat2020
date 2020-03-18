@@ -22,36 +22,39 @@
   <link href="css/nav.css" type="text/css" rel="stylesheet" >
   <link href="css/banner.css" type="text/css" rel="stylesheet" >
   <link href="css/rodape.css" type="text/css" rel="stylesheet" >
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto+Condensed|Titillium+Web&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto+Condensed|Titillium+Web&display=swap" rel="stylesheet">
+<!-- necessario para sidenav funcionar -->
+<style media="screen">
+  .sidenav-overlay{
+     z-index: initial;
+  }
+</style>
 </head>
 <body>
   <div class="banner" >
-<span id="inicio"></span>
+<span class="scrollspy"id="inicio"></span>
       <div class="navbar-fixed">
         <nav class="transparentBG">
            <div class="nav-wrapper" id="depois">
                <!-- logos -->
-                <a id="logo-container logoNav1" href="#" class="brand-logo"><img src="img/LogoFN1.png" style="height:62px;" alt=""></a>
-                <a id="logo-container logoNav2" href="#" class="brand-logo right"><img src="img/Logofeira2.png" style="height:62px;" alt=""></a>
+                <a id="logo-container logoNav1" href="#" class="brand-logo"><img src="img/LogoFN1.png" style="height:55px;" alt=""></a>
+                <a id="logo-container logoNav2" href="#" class="brand-logo right"><img src="img/Logofeira2.png" style="height:57px;" alt=""></a>
                 <!-- itens -->
              <ul  class="center hide-on-med-and-down white-text">
-               <li class="MenuSelect waves-effect waves-yellow "><a href="#inicio" class="navtxt">Home</a></li>
-               <li class="MenuSelect waves-effect waves-green"><a href="#sobre" class="navtxt">Sobre</a></li>
-               <li class="MenuSelect waves-effect waves-red"><a href="#participante" class="navtxt">Área do Participante</a></li>
-               <li class="MenuSelect waves-effect waves-orange"><a href="#prog" class="navtxt">Programação da Feira</a></li>
-               <li class="MenuSelect waves-effect waves-purple"><a href="#org" class="navtxt">Organização e Apoio</a></li>
-                <li class="MenuSelect waves-effect waves-teal"><a href="#contato" class="navtxt">Contato</a></li>
+               <li class="MenuSelect waves-effect waves-yellow "><a href="#inicio">Home</a></li>
+               <li class="MenuSelect waves-effect waves-green"><a href="#sobre">Sobre</a></li>
+               <li class="MenuSelect waves-effect waves-red"><a href="#participante">Área do Participante</a></li>
+               <li class="MenuSelect waves-effect waves-purple"><a href="#prog">Programação da Feira</a></li>
+               <li class="MenuSelect waves-effect waves-orange"><a href="#org">Organização e Apoio</a></li>
+                <li class="MenuSelect waves-effect waves-teal"><a href="#contato">Contato</a></li>
                 <li class="" ><a target="_blank" href="https://eventos.fabricadesoftware.ifc.edu.br/evento/38/visualizar/">Inscreva-se</a></li>
              </ul>
              <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons black-text">menu</i></a>
           </div>
           <ul id="nav-mobile" class="sidenav">
 
-             <li class="MenuSelect "><a href="#home" >Home</a></li>
-             <li class="MenuSelect "><a href="#galeria" >Galeria</a></li>
+             <li class="MenuSelect "><a href="#inicio" >Home</a></li>
+             <li class="MenuSelect "><a href="#sobre" >Sobre</a></li>
              <li class="MenuSelect "><a href="#participante">Área do Participante</a></li>
              <li class="MenuSelect "><a href="#prog">Programação da Feira</a></li>
              <li class="MenuSelect "><a href="#org" >Organização e Apoio</a></li>
@@ -62,10 +65,13 @@
         <!-- FIM DO NAV -->
   </div>
 
-  <div class="container">
-      <div class="row benner" style="margin-top: px">
+  <div class="container filter">
+      <div class="row benner ">
         <div class="col s12 l6 m6">
           <img class="responsive-img logo-banner" width="100%" src="img/LogoFN1.png"  alt="Logo da VII Feira Nacional de Matemática">
+        </div>
+        <div class="filter">
+
         </div>
         <div class="col s12 l6 m6">
           <div class="row titulo">
@@ -109,7 +115,7 @@
                     <div class="row">
                       <div class="col S12 l4 m4"><img src="img/FURB.png" alt="FURB"></div>
                       <div class="col s12 l4 m4"><img src="img/IFSC.png" alt="IFSC"></div>
-                      <div class="col s12 l4 m4"><img src="img/UFSC.png" alt="UFSC Blumenau"></div>
+                      <div class="col s12 l4 m4"><img src="img/ufsc3.png" alt="UFSC Blumenau"></div>
                     </div>
                 </div>
               </div>
@@ -149,23 +155,23 @@
         </div>
           </div>
           <div class="row">
-          <div class="carousel col s10">
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/fnmatvi3.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/fnmatvi2.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/fnmatvi1.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/fnmatv.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IVFNMat4.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IVFNMat2.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IIIFNMat3.png"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IIIFNMat2.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IIIFNMat1.jpg"></a>
-      <!--    <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IVFNMat.jpg"></a> -->
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IIFNMat2.JPG"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/img2.png"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IIFNMat.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IFNMat2.jpg"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/img1.png"></a>
-          <a class="carousel-item" ><img style="height: 312px; width: 312px" src="img/IFNMat1.jpg"></a>
+          <div class="carousel col s12">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/fnmatvi3.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/fnmatvi2.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/fnmatvi1.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/fnmatv.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IVFNMat4.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IVFNMat2.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IIIFNMat3.png">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IIIFNMat2.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IIIFNMat1.jpg">
+        <!--    <img class="carousel-item" style="height: 312px; width: 312px" src="img/IVFNMat.jpg"> -->
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IIFNMat2.JPG">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/img2.png">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IIFNMat.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IFNMat2.jpg">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/img1.png">
+            <img class="carousel-item" style="height: 312px; width: 312px" src="img/IFNMat1.jpg">
           </div>
           </div>
 
@@ -537,7 +543,7 @@
        <img src="img/SC.png" style="width: 11%; " alt="Governo de Santa Catarina">
        <img src="img/FURB.png" style="width: 11%;" alt="FURB">
        <img src="img/IFSC.png" style="width: 11%;" alt="IFSC">
-       <img src="img/UFSC.png" style="width: 11%;" alt="UFSC Blumenau">
+       <img src="img/ufsc3.png" style="width: 11%;" alt="UFSC Blumenau">
     </p>
   <br><br>
   <center><h3 style="color:black" >Apoio</h3><center>

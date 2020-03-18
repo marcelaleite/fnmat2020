@@ -4,12 +4,12 @@
   "description": "Site com informações sobre a feira nacional de Matemática de 2020",
   "icons": [
     {
-      "src": "/img/logo.jpeg",
+      "src": "img/logo.jpeg",
       "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "/img/LogoFN1.png",
+      "src": "img/LogoFN1.png",
       "type": "image/jpeg",
       "sizes": "512x512"
     }
