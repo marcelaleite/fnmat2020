@@ -153,13 +153,14 @@ footer.page-footer {
 } */
 
 .titulo{
-  font-size: 1.8em;
+  font-size: 1.9em;
 
   color: rgb(53, 79, 158);
   font-weight: bold;
   padding-top: 20%;
   padding-left: 5%;
   text-align: center;
+  margin-top: -5%;
 
 font-family: 'Roboto Condensed', sans-serif;
 }
@@ -167,7 +168,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .local{
   text-align: center;
   padding-left: 5%;
-  font-size:1.5em;
+  font-size:1.6em;
   font-family: 'Roboto Condensed', sans-serif;
   margin-top: -25px;
 }
@@ -176,7 +177,7 @@ font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   padding-left: 5%;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
