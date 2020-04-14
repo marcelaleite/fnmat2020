@@ -18,19 +18,21 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/nav.css" type="text/css" rel="stylesheet" >
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto+Condensed|Titillium+Web&display=swap" rel="stylesheet">
 
 
-    <script type="text/javascript">
-      $(document).ready(function () {
-          window.alert("Feira adiada! Leia o Regimento e fique atento às novas datas e prazos.")
-      });
-  </script>
+    
 
 </head>
 <body>
+
+  
 <span id='inicio'></span>
       <div class="navbar-fixed">
         <nav>
@@ -66,6 +68,18 @@
         <!-- FIM DO NAV -->
   </div>
   <div class="container">
+
+    <!-- MODAL INICIAL -->
+
+    <div id="inicial" class="modal">
+      <div class="modal-content">
+        <h5 style="text-align: center;">Feira adiada! Leia o novo regimento e fique atento às novas datas e prazos.</h5>
+      </div>
+      <div class="modal-footer">
+        <h4 class="btn-flat " style="border-radius:8px;background: #9400D3;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right white-text" >Fechar</a></h4>
+      </div>
+    </div>
+
 
    
 
@@ -408,21 +422,11 @@
          </div>
                  </div>
 
-                 <div class="col s12 m4 item5">
-                   <div class="icon-block regimento"><a target="" class=" modal-trigger cro" href="#novoRegimento">
+                 <div class="col s12 m4 item5" style="text-align: center;">
+                   <div class="icon-block regimento"><a target="_blank" class=" modal-trigger cro dropdown-trigger" href="pdf/Regimento_VII Feira Nacional de Matemática - 2020 - Pós adiamento.pdf">
                      <h2 class="center black-text"><i class="material-icons regimento">book</i></h2>
-                     <h5 class="center regimento">Regimento</h5></a>
-
-                     <div id="novoRegimento" class="modal">
-                      <div style="color: #0EABCEB3" class="modal-content" style="text-align: center;">
-                      <h5>NOVO REGIMENTO!</h5>
-                      <div class="modal-footer">
-                      <h4 class="btn-flat " style="border-radius:8px; background: #0EABCEB3;"><a href="pdf/Regimento_VII Feira Nacional de Matemática - 2020 - Pós adiamento.pdf" target="_blank" class=" modal-action modal-close waves-effect waves-green right white-text">Abrir Regimento</a></h4>
-                      <h4 class="btn-flat " style="border-radius:8px; background: #0EABCEB3;"><a href="#!" class=" modal-action modal-close waves-effect waves-green right white-text">Fechar</a></h4>
-                      </div>
-                    </div>
-                   </div>
-
+                     <h5 class="center regimento">Regimento</h5>
+                    <span style="color: white; float: none; margin-left: inherit;" class="badge red">Novo</span></a>
                  </div>
               </div>
 
@@ -706,6 +710,11 @@
       <script src="js/slide.js"></script>
       <script src="js/modal.js"></script>
       <script src="js/dobravel.js"></script>
+      <script>
+        $(document).ready(function(){
+           $('#inicial').modal('open');
+        });
+  </script>
     </div>
   </body>
 </html>
