@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
  // Or with jQuery
 
- $(document).ready(function(){
+ /*$(document).ready(function(){
    $('.parallax').parallax();
  });
 
@@ -28,3 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+*/
